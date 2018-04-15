@@ -1,0 +1,10 @@
+{
+  "name": "qul",
+  "version": "0.0.0",
+  "description": "GraphQL intermediary",
+  "main": "index.js",
+  "repository": "git@github.com:one19/qul.git",
+  "author": "Drew Showalter <maelstroswim@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
