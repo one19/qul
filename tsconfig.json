@@ -5,9 +5,20 @@
     "removeComments": true,
     "preserveConstEnums": true,
     "sourceMap": true,
-    "outDir": "dist"
+    "outDir": "dist",
+    "lib": [
+      "es5",
+      "es6",
+      "es2015",
+      "esnext"
+    ]
   },
-  "files": [
-    "index.ts"
+  "include": [
+    "src/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    ".git"
   ]
 }

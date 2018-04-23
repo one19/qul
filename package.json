@@ -7,11 +7,20 @@
   "author": "Drew Showalter <maelstroswim@gmail.com>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "test": "ava-ts test"
+  },
   "devDependencies": {
     "@types/node": "^9.6.6",
     "ava": "^0.25.0",
+    "ava-ts": "^0.24.3",
+    "eslint": "^4.19.1",
     "graphql": "^0.13.2",
     "graphql-mock": "^0.4.1",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.0.4",
+    "prettier": "^1.12.1",
+    "ts-node": "^6.0.0",
     "typescript": "^2.8.3"
   }
 }

@@ -1,7 +1,6 @@
 import test from 'ava';
+import { parse } from '../src';
 
-const fn = async () => Promise.resolve('foo');
-
-test(async (t) => {
-  t.is(await fn(), 'foo');
+test('returns an object for an input string', t => {
+  t.deepEqual(parse('something'), {});
 });
