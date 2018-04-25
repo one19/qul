@@ -10,7 +10,11 @@
   "scripts": {
     "test": "ava-ts test",
     "lint": "eslint . --ext '.ts' --fix",
-    "eslint-check": "eslint --print-config .eslintrc.js | eslint-config-prettier-check"
+    "eslint-check":
+      "eslint --print-config .eslintrc.js | eslint-config-prettier-check"
+  },
+  "dependencies": {
+    "graphql": "^0.13.2"
   },
   "devDependencies": {
     "@types/node": "^9.6.6",
@@ -22,7 +26,6 @@
     "eslint-plugin-node": "^6.0.1",
     "eslint-plugin-prettier": "^2.6.0",
     "eslint-plugin-promise": "^3.7.0",
-    "graphql": "^0.13.2",
     "graphql-mock": "^0.4.1",
     "husky": "^0.14.3",
     "lint-staged": "^7.0.4",
